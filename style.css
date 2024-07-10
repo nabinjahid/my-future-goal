@@ -104,7 +104,7 @@ nav {
 .web-main-box {
     width: 946px;
     margin: 0px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .headding-description {
@@ -116,7 +116,7 @@ nav {
 .hedding-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 800;
     line-height: 37px;
     text-align: center;
@@ -139,11 +139,15 @@ nav {
 }
 
 .cart {
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     box-shadow: 5px 10px #fcfbfb;
+    background-color: rgb(255, 251, 251);
+    /* border: 2px solid red; */
+    margin: 60px 0px;
 }
 
 .cart-contant {
@@ -193,6 +197,34 @@ nav {
 
 }
 .middle-cart{
-    margin: 70px 0px;
+    /* border: 2px solid red; */
+    /* margin: 120px 0px; */
     flex-direction: row-reverse;
+}
+
+/* Inspiration sectin */
+#insparation-section{
+    margin-top: 80px;
+    border: 2px solid red;
+}
+
+.insp-title{
+    width: 60%;
+    margin: 20px auto;
+}
+.video-box{
+    width: 70%;
+    height: 500px;
+    margin: 30px auto;
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+}
+.youtube-video{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
 }
