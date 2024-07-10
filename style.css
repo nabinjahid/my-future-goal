@@ -1,22 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     /* font-family: "Azeret Mono", monospace; */
 }
 
-nav{
+nav {
+    width: 1350px;
     padding: 30px 0px;
     display: flex;
     justify-content: space-around;
 }
-.nv-btn{
-    
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
 
-opacity: 0.8;
+.logo {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
+.nv-btn {
+    padding: 15px 20px;
+
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+/* banner section */
+#banner-section {
+
+    width: 1350px;
+    height: 612px;
+    background-image: url("./assets/Hero-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-box {
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.banner-description {
+    width: 90%;
+    margin: 10px auto;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.btn {
+    padding: 20px 30px;
+    margin: 15px 0px;
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* why web desing section */
+
+#why-web {
+    margin-top: 100px;
+}
+
+.web-main-box {
+    width: 946px;
+    margin: 0px auto;
+    border: 2px solid red;
+}
+
+.headding-description {
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.hedding-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.headding-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 20px auto;
+}
+
+.cart-box {
+    margin-top: 70px;
+
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 10px #fcfbfb;
+}
+
+.cart-contant {
+    width: 55%;
+}
+
+.cart-img {
+    width: 35%;
+}
+
+.cart-title {
+
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0px;
+
+}
+
+.cart-des {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+    margin: 5px 0px;
+}
+
+.cart-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 20px 0px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+
+}
+.middle-cart{
+    margin: 70px 0px;
+    flex-direction: row-reverse;
 }
