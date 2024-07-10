@@ -205,7 +205,8 @@ nav {
 /* Inspiration sectin */
 #insparation-section{
     margin-top: 80px;
-    border: 2px solid red;
+    margin-bottom: 70px;
+    /* border: 2px solid red; */
 }
 
 .insp-title{
@@ -227,4 +228,67 @@ nav {
     width: 90%;
     height: 90%;
     border-radius: 10px;
+}
+.skill-cart-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* border: 2px solid red; */
+
+}
+.skill{
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.skill-cart{
+    width: 364px;
+height: 299px;
+    box-sizing: border-box;
+    padding: 30px;
+    /* border: 2px solid green; */
+    background: rgba(0, 76, 232, 0.05);
+   border-radius: 15px;
+}
+.skill-img{
+    width: 56px;
+height: 56px;
+}
+.skill-name{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+}
+a{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    border-bottom: 2px solid rgb(13, 19, 33);;
+
+}
+.learn-more{
+    margin-top: 20px;
+}
+.cart-1, .cart-3{
+    background: rgba(255, 76, 30, 0.05);
 }
